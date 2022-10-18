@@ -1,68 +1,26 @@
 # Resumate
 
-## Build Setup
+## Description
+View the project on [Devpost][https://devpost.com/software/placeholder-jsx57d##updates].
 
-```bash
-# install dependencies
-$ yarn install
+## Inspiration
+A resume is something that we will all have to make, some time or another. It plays a major role in determining future opportunities. A weak resume could lead to an automatic no, but a great one will lead to success. Many companies use ATS, or applicant tracking system. It's used to scan resumes and see whether they are worthy of consideration/interviews. So, our service uses AI trained on great resumes to help you get approved by both the ATS and your employers.
 
-# serve with hot reload at localhost:3000
-$ yarn dev
+## Usage
+Resumate guides you through the tough task of creating a resume. You start off by picking one of four modern resume templates. Then you enter in your information such as your name, location, school, relevant work experience or any projects that you are proud of. This information then gets automatically displayed on the template you chose. As you enter in the bullet points for your experience, Resumate will give you feedback and tell you how well your bullet points are. Lacking bullet points will be boxed in red and there will be helpful suggestions to improve your lacking bullet points. There will be a score displayed for how well your resume is out of 100. Finally, you will be able to download the resume you created as a PDF.
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+## Development
+We built it using Vue for the frontend and we used Cohere's API to generate feedback for the bullet points and an overall score for the resume.
 
-# generate static project
-$ yarn generate
-```
+## Challenges
+One challenge we ran into was trying to collaborate on the same files at the same time as other teammates. This made it hard to merge changes, and we had to take extra care into making sure that there were no problems with integration.
+We originally had the translator to workplace-appropriate language as one of our main features, but it had to be scrapped because of difficulties.
 
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
+## Accomplishments
+One accomplishment we are proud of is successfully integrating the Cohere API in our project. For two of our team members, this was the first time learning how to use an API. We were satisfied that we were able to provide them with a hands on experience of setting up and working with an API.
 
-## Special Directories
+## Lessons
+For two of our team members, this was their first time working with Vue.js. This gave us a unique opportunity to have two members teach and two members learn. All in all, it was a great learning experience for everyone.
 
-You can create the following extra directories, some of which have special behaviors. Only `pages` is required; you can delete them if you don't want to use their functionality.
-
-### `assets`
-
-The assets directory contains your uncompiled assets such as Stylus or Sass files, images, or fonts.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/assets).
-
-### `components`
-
-The components directory contains your Vue.js components. Components make up the different parts of your page and can be reused and imported into your pages, layouts and even other components.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/components).
-
-### `layouts`
-
-Layouts are a great help when you want to change the look and feel of your Nuxt app, whether you want to include a sidebar or have distinct layouts for mobile and desktop.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/layouts).
-
-### `pages`
-
-This directory contains your application views and routes. Nuxt will read all the `*.vue` files inside this directory and setup Vue Router automatically.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/get-started/routing).
-
-### `plugins`
-
-The plugins directory contains JavaScript plugins that you want to run before instantiating the root Vue.js Application. This is the place to add Vue plugins and to inject functions or constants. Every time you need to use `Vue.use()`, you should create a file in `plugins/` and add its path to plugins in `nuxt.config.js`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
-
-### `static`
-
-This directory contains your static files. Each file inside this directory is mapped to `/`.
-
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
-
-### `store`
-
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
-
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+## Future
+We are planning for Resumate to be an application that helps prepare you for the workforce in general. We are planning on adding interview practice simulations that will give you questions based on the prompts you select, gauging your eye contact and confidence levels. Another addition would be a "translator" for common informal English phrases into their workplace-appropriate equivalents. As for the core resume functionality itself, we are looking to improve templates and increase the AI mode's accuracy.
