@@ -1,7 +1,7 @@
 # Resumate
 
 ## Description
-View the project on [Devpost][https://devpost.com/software/placeholder-jsx57d##updates].
+View the project on [Devpost](https://devpost.com/software/placeholder-jsx57d##updates).
 
 ## Inspiration
 A resume is something that we will all have to make, some time or another. It plays a major role in determining future opportunities. A weak resume could lead to an automatic no, but a great one will lead to success. Many companies use ATS, or applicant tracking system. It's used to scan resumes and see whether they are worthy of consideration/interviews. So, our service uses AI trained on great resumes to help you get approved by both the ATS and your employers.
